@@ -1,0 +1,57 @@
+.navbar-container
+ {
+    display: flex;
+    justify-content: center;
+    min-width: 1400px;
+    min-height: auto;
+    margin-top: 25px;
+ }
+
+.navbar-content
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1050px;
+    min-height: 128;
+    color: white;
+    gap: 80px;
+ }
+
+.navul
+ {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+
+#n-logo
+ {
+    font-size: 40px;
+    cursor: default;
+ }
+
+.navmenu
+ {
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+ }
+
+.nav-button
+ {
+   width: 100px;
+   height: 30px;
+   background-color: #50C878;
+   color: white;
+   border: none;
+   font-weight: bold;
+   border-radius: 15px;
+   padding: 1px;
+   cursor: pointer;
+ }
+
+.nav-button:hover
+ {
+   background-color: #3abb65;
+ }

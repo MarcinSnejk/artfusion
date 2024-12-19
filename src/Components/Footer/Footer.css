@@ -1,0 +1,39 @@
+.footer-container
+ {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+ }
+
+.footer-content
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1050px;
+    height: 128;
+    color: white;
+    gap: 140px;
+ }
+
+.footul
+ {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+
+#f-logo
+ {
+    font-size: 40px;
+    cursor: default;
+ }
+
+.footer
+ {
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+ }

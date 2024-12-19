@@ -1,0 +1,56 @@
+.s1-con
+ {
+    min-width: 1400px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ }
+.s1-content
+ {
+    width: 1050px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+ }
+
+#s1-title
+ {
+    margin-top: 70px;
+    font-size: 45px;
+    font-weight: medium;
+    cursor: default;
+ }
+
+.s1-ntf
+ {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 100vh;
+    padding: 0px;
+ }
+
+.s1_nft_middle , .s1_nft_left , .s1_nft_right
+ {
+    
+    width: 30%;
+    margin: 0 10px;
+    padding: 5px;
+    overflow: hidden;
+ }
+
+.s1_nft_pic
+ {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+ }
+
+.s1_nft_pic:hover
+ {
+   transform: scale(1.1);
+ }
